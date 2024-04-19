@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+background-color: 
+#f5f5f5;
+
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container-card{
+    justify-content: center;
+    position: relative;
+display: flex;
+gap: 40px;
+margin: 100px;
+flex-wrap: wrap;
+
+}
+.first-card{
+  /* Splash screen */
+
+position: relative;
+width: 428px;
+height: 926px;
+
+background: #FFFFFF;
+ 
+
+
+
+
+
+
+
+
+
+
+
+}
+  
+.first-card  svg{
+/* Vector */
+
+position: absolute;
+left: 32.01%;
+right: 31.78%;
+top: 38.34%;
+bottom: 44.51%;
+
+}
+.first-card  h4{
+    /* Dishover */
+
+position: absolute;
+width: 232px;
+height: 57px;
+left: 98px;
+top: 514px;
+
+font-family: 'RF Barbariska rough 2';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 66px;
+
+color: #000000;
+
+
+}
+/* ============================================================ */
+.container-card .card{
+ /* Onboarding Screen 1 */
+
+position: relative;
+width: 428px;
+height: 926px;
+
+background: #FFFFFF;
+
+
+
+}
+.container-card .card img{
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px -1px;
+gap: 10px;
+
+position: absolute;
+width: 37px;
+height: 21px;
+left: 368px;
+top: 36px;
+
+background: #F67939;
+border-radius: 9px;
+
+
+}
+.card svg{
+  /* fruit-salad/amico */
+
+position: absolute;
+width: 301px;
+height: 326.15px;
+left: 77px;
+top: 95.76px;
+
+
+}
+.card h4{
+  /* Fresh Meals */
+
+position: absolute;
+width: 274px;
+height: 58px;
+left: 77px;
+top: 434px;
+
+font-family: 'RF Barbariska rough 2';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+}
+.card p{
+  /* Discover fresh, healthy meals delivered straight to your door. */
+
+position: absolute;
+width: 277px;
+height: 78px;
+left: 71px;
+top: 525px;
+
+font-family: 'Akshar';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 26px;
+text-align: center;
+
+color: #000000;
+
+
+
+
+}
+.card .cercle{/* Group 42 */
+
+position: absolute;
+width: 68px;
+height: 18px;
+left: calc(50% - 68px/2);
+top: 650px;
+
+
+}
+.card .btn{
+    
+}
+.card-tow{
+    /* Onboarding Screen 2 */
+
+position: relative;
+width: 428px;
+height: 926px;
+
+background: #FFFFFF;
+
+}
+.card-tow img{
+    /* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px -1px;
+gap: 10px;
+
+position: absolute;
+width: 37px;
+height: 21px;
+left: 361px;
+top: 36px;
+
+background: #F67939;
+border-radius: 9px;
+
+}
+.card-tow .img{
+    /* lunch-time/pana */
+
+position: absolute;
+width: 255px;
+height: 240px;
+left: 78px;
+top: 154px;
+
+
+}
+.card-tow h4{
+    /* Quick Delivery */
+
+position: absolute;
+width: 318px;
+height: 58px;
+left: 55px;
+top: 434px;
+
+font-family: 'RF Barbariska rough 2';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.card-tow p{
+    /* Get your meals delivered quickly and conveniently */
+
+position: absolute;
+width: 300px;
+height: 18px;
+left: 64px;
+top: 534px;
+
+font-family: 'Akshar';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 26px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.card-tow svg{
+    /* Group 43 */
+
+position: absolute;
+width: 68px;
+height: 18px;
+left: calc(50% - 68px/2);
+top: 650px;
+
+
+}
+.card-three{
+    /* Onboarding Screen 3 */
+
+position: relative;
+width: 428px;
+height: 926px;
+
+background: #FFFFFF;
+
+}
+.card-three img{
+    /* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px -1px;
+gap: 10px;
+
+position: absolute;
+width: 40px;
+height: 21px;
+left: 358px;
+top: 36px;
+
+background: #F67939;
+border-radius: 9px;
+
+}
+.card-three .img{
+    /* order-food/pana */
+
+position: absolute;
+width: 237px;
+height: 241.22px;
+left: 95px;
+top: 169px;
+
+
+}
+.card-three h4{
+    /* Start Today! */
+
+position: absolute;
+width: 275px;
+height: 58px;
+left: 76px;
+top: 434px;
+
+font-family: 'RF Barbariska rough 2';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.card-three p{
+    /* Start your culinary journey with us today! */
+
+position: absolute;
+width: 277px;
+height: 24px;
+left: 75px;
+top: 531px;
+
+font-family: 'Akshar';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 26px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.card-three svg{
+    /* Group 44 */
+
+position: absolute;
+width: 68px;
+height: 18px;
+left: calc(50% - 68px/2);
+top: 650px;
+
+
+}
+
+@media screen and (max-width:500px) {
+    .first-card{
+        padding: 0 170px;
+
+    }
+    .card{
+        padding: 0 170px;
+
+    }
+    .card-tow{
+        padding: 0 170px;
+
+    }
+    .card-three{
+        padding: 0 170px;
+
+    }
+    
+}
